@@ -1,0 +1,13 @@
+.skill.item
+  min-height: 100px
+  line-height: 100px !important
+
+body
+  background-color: #333333
+  text-align: center
+
+.grid
+  margin: 0 auto
+
+.bingo
+  padding: 0 !important
