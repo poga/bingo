@@ -10,6 +10,10 @@ html(ng-app="masteries")
     link(rel="stylesheet", href="./css/index.stylus.css")
     script(src="./index.js")
   body(ng-controller="msCtrl")
+    h1
+      | G0V Leve1up Bingo
+    div#desc
+      | 黑客松只是開始...
     .ui.seven.column.grid
       .column
       .column.bingo
@@ -36,7 +40,7 @@ html(ng-app="masteries")
       .column.bingo
         .ui.labeled.vertical.fluid.inverted.icon.menu
           ms-skill(id=15, label="發起迷你松")
-          ms-skill(id=16, label="替自己的專案建立粉絲頁")
+          ms-skill(id=16, label="替自己的專案建立粉絲頁，進行宣傳")
           ms-skill(id=17, label="在黑客松上台提案")
           ms-skill(id=18, label="替別人的專案找出一個問題，並且提供解法")
           ms-skill(id=19, label="使用d3.js建立資訊圖表")

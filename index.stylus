@@ -11,3 +11,10 @@ body
 
 .bingo
   padding: 0 !important
+
+h1
+  color: rgba(255,255,255,0.8)
+  font-size: 40px
+
+#desc
+  color: rgba(255,255,255, 0.5)
